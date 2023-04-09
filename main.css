@@ -79,7 +79,7 @@ a:hover {
 }
 .monthTable > tbody > tr > td:first-child { 
     font-weight: bold;
-    minimum-width: 130px;
+    min-width: 130px;
     padding-right: 50px;
     width: 130px;
 }
@@ -100,7 +100,9 @@ a:hover {
     padding: 20px 20px 0px 15px;
     width: 300px;
     min-width: 300px;
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
     vertical-align: middle;
 }
 .content-row-left h4{
